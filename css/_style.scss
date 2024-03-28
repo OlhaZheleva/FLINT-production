@@ -1235,8 +1235,7 @@
       }
 
       .primary__central_phrase {
-        top: inherit;
-        bottom: 0%;
+   
       }
 
       .primary__hidden-items {
@@ -1244,6 +1243,10 @@
 
       .primary__boxes {
         margin: 0 auto;
+        position: absolute;
+        bottom: 15vh;
+        left: 50%;
+        transform: translate(-50%, 0);
 
         .box-item {
           width: 21vw;
@@ -1253,7 +1256,8 @@
       .primary__central_phrase {
         z-index: 6;
         margin-bottom: 0px;
-        bottom: 10vh;
+        top: 55vh;
+        transform: translate(-50%, -50%);
       }
     }
   }

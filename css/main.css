@@ -1105,12 +1105,12 @@ span {
   .primary .primary__container .primary__animation-items .animation-state_mob {
     display: block;
   }
-  .primary .primary__container .primary__central_phrase {
-    top: inherit;
-    bottom: 0%;
-  }
   .primary .primary__container .primary__boxes {
     margin: 0 auto;
+    position: absolute;
+    bottom: 15vh;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
   .primary .primary__container .primary__boxes .box-item {
     width: 21vw;
@@ -1118,7 +1118,8 @@ span {
   .primary .primary__container .primary__central_phrase {
     z-index: 6;
     margin-bottom: 0px;
-    bottom: 10vh;
+    top: 55vh;
+    transform: translate(-50%, -50%);
   }
   .primary1 {
     background-image: url("../images/primary-mob.webp");
