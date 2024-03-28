@@ -1381,7 +1381,7 @@ span {
     transform: none;
   }
   .second .second__container {
-    padding: 300px 20px 40px;
+    padding: 325px 20px 40px;
   }
   .second .second__container .second__flex {
     position: relative;
@@ -1410,7 +1410,7 @@ span {
     bottom: 13px;
   }
   .second .second__container .second__title {
-    margin-top: 54px;
+    margin-top: 30px;
     line-height: 48px;
   }
   .second .second__container .second__title::before {
@@ -1424,7 +1424,7 @@ span {
     max-width: 416px;
     transform: none;
     bottom: inherit;
-    top: 100px;
+    top: 125px;
   }
   .second .second__container .second__lines-background {
     transform: translate(7%, 0);
