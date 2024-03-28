@@ -1244,7 +1244,7 @@
       .primary__boxes {
         margin: 0 auto;
         position: absolute;
-        bottom: 15vh;
+        top: calc(100vh - 220px);
         left: 50%;
         transform: translate(-50%, 0);
 
@@ -1256,7 +1256,7 @@
       .primary__central_phrase {
         z-index: 6;
         margin-bottom: 0px;
-        top: 55vh;
+        top: 56vh;
         transform: translate(-50%, -50%);
       }
     }
