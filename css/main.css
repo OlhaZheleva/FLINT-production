@@ -1136,6 +1136,12 @@ span {
   .primary1 {
     background-image: url("../images/primary-mob.webp");
   }
+  .primary1 .primary__container .primary__central_phrase {
+    top: 62vh;
+  }
+  .primary1 .primary__container .primary__boxes {
+    top: calc(100vh - 160px);
+  }
   .primary1 .primary__container .primary__beauty-screen .primary__beauty_mobile {
     position: absolute;
     top: 0;
@@ -1232,7 +1238,7 @@ span {
   }
   .primary2 .primary__container .primary__gym-screen .primary__gym_mobile {
     position: absolute;
-    top: 0;
+    top: -5px;
     left: 0;
     transform: none;
     width: 100%;
@@ -1264,8 +1270,8 @@ span {
   .primary2 .primary__container .primary__gym-screen .primary__animation-items.items2 .animation-state1 {
     z-index: 5;
     transform: translate(0%, -100%);
-    bottom: 29%;
-    left: 3%;
+    bottom: 27%;
+    left: 1%;
   }
   .primary2 .primary__container .primary__gym-screen .primary__animation-items.items2 .animation-state2 {
     z-index: 20;
