@@ -805,7 +805,6 @@
       .primary__central_phrase {
         top: inherit;
         bottom: 0%;
-        min-width: 299px;
       }
 
       .primary__hidden-items {
@@ -1242,6 +1241,15 @@
       }
 
       .primary__central_phrase {
+        width: 64vw;
+        height: auto;
+        max-height: none;
+        min-height: none;
+
+        .primary__pic { 
+          width: 100%;
+          height: auto;
+        }
       }
 
       .primary__hidden-items {
@@ -1319,7 +1327,7 @@
             .animation-state1 {
               z-index: 5;
               transform: none;
-              top: 40%;
+              top: 30%;
               left: 30%;
             }
 

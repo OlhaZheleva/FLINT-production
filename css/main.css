@@ -791,7 +791,6 @@ span {
   .primary .primary__container .primary__central_phrase {
     top: inherit;
     bottom: 0%;
-    min-width: 299px;
   }
   .second .second__container .second__people-background {
     width: 45vw;
@@ -1108,6 +1107,16 @@ span {
   .primary .primary__container .primary__animation-items .animation-state_mob {
     display: block;
   }
+  .primary .primary__container .primary__central_phrase {
+    width: 64vw;
+    height: auto;
+    max-height: none;
+    min-height: none;
+  }
+  .primary .primary__container .primary__central_phrase .primary__pic {
+    width: 100%;
+    height: auto;
+  }
   .primary .primary__container .primary__boxes {
     margin: 0 auto;
     position: absolute;
@@ -1161,7 +1170,7 @@ span {
   .primary1 .primary__container .primary__beauty-screen .primary__animation-items.items2 .animation-state1 {
     z-index: 5;
     transform: none;
-    top: 40%;
+    top: 30%;
     left: 30%;
   }
   .primary1 .primary__container .primary__beauty-screen .primary__animation-items.items2 .animation-state2 {
